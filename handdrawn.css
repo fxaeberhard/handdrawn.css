@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+font-family: 'Architects Daughter', cursive;
+body {
+    background: whitesmoke;
+}
+:focus {
+    outline: none;
+}
+body, button, input, textarea {
+/*     font-family: 'Indie Flower', cursive; */
+    font-family: 'Architects Daughter', cursive;
+/*     font-family: 'Shadows Into Light', cursive; */
+/*     font-family: 'Covered By Your Grace', cursive; */
+}
+
+input, select, button, textarea, table{
+    background: transparent;
+    border: 1px solid darkgray;
+}
+
+body, a, input, select, button, textarea {
+    color: darkgray;
+}
+
+table {
+}
+thead, tfoot {
+    background: darkgray;
+    color: white;
+}
+td, th {
+    padding: 0.4rem;
+}
