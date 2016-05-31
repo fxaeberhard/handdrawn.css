@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+body {
+    // background: whitesmoke url(assets/backgrounds/paper_texture309.jpg);
+    background: whitesmoke url(assets/backgrounds/paper_texture310.jpg);
+    // background: whitesmoke url(assets/backgrounds/paper_texture318.jpg);
+    // background: whitesmoke url(assets/backgrounds/paper_texture327.jpg);
+    // background: whitesmoke url(assets/backgrounds/paper_texture332.jpg);
+    font-family: 'Architects Daughter', cursive;
+}
+
+:focus {
+    outline: none;
+}
+
+body,
+input,
+textarea,
+keygen,
+select,
+button {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Architects Daughter', cursive;
+    /*     font-family: 'Shadows Into Light', cursive; */
+    /*     font-family: 'Covered By Your Grace', cursive; */
+    padding: .2rem;
+}
+
+input,
+textarea,
+keygen,
+select,
+button,
+.hd-border {
+    background: transparent;
+    border: 1px solid gray;
+}
+
+body,
+a,
+input,
+select,
+button,
+textarea {
+    color: #717171;
+}
+
+table {}
+
+thead,
+tfoot {
+    background: #717171;
+    color: white;
+}
+
+td,
+th {
+    padding: 0.4rem;
+}
+
+@import 'icons';

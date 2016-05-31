@@ -1,0 +1,28 @@
+{
+  "name": "handdrawn.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handdrawn.css",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-iconfont": "^8.0.0",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxaeberhard/handdrawn.css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fxaeberhard/handdrawn.css/issues"
+  },
+  "homepage": "https://fxaeberhard.github.com/handdrawn.css"
+}
