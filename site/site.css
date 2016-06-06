@@ -1,0 +1,96 @@
+h1 {
+    font-size: 4.2rem;
+    margin: 2rem 0 0.4rem;
+    line-height: 4.2rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 2rem 0 0.6rem;
+}
+
+body {
+    margin: 0 1rem;
+}
+
+main,
+footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.cl {
+    clear: both;
+    float: none;
+}
+
+.clear {
+    clear: both;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#gettingstarted input {
+    width: 31rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+    max-width: calc(100vw - 5rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#tooltip {
+    display: none;
+    background: pink;
+    width: 0px;
+}
+
+#tooltip textarea {
+    background: whitesmoke url(../assets/backgrounds/paper_texture310.jpg);
+    position: absolute!important;
+    z-index: 1;
+    height: 3rem;
+    width: 380px;
+    max-width: 77vw;
+}
+
+#samples> div> div,
+#icons > div > div {
+    border-color: transparent;
+}
+
+#samples> div> div:hover,
+#icons > div > div:hover,
+#samples> div> div.hover,
+#icons > div > div.hover {
+    border-color: #919090;
+}
+
+#samples > div > div {
+    float: left;
+    padding: 1rem;
+    box-sizing: content-box;
+    min-height: 3.3rem;
+}
+
+#icons > div > div {
+    float: left;
+    padding: .2rem;
+    text-align: center;
+    width: 4.3rem;
+    height: 4.3rem;
+    line-height: 1.1rem;
+}
+
+#icons >div p {
+    margin: 0;
+}
+
+footer {
+    margin: 3rem auto 1rem;
+    font-size: .9rem;
+    text-align: center;
+}

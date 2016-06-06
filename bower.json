@@ -1,14 +1,17 @@
 {
-  "name": "HandDrawn",
-  "description": "",
-  "main": "",
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "handdrawn.css",
+    "description": "",
+    "main": "handdrawn.min.css",
+    "license": "MIT",
+    "homepage": "http://fxaeberhard.github.io/handdrawn.css",
+    "authors": [
+        "Francois-Xavier Aeberhard <fx@red-agent.com>"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }

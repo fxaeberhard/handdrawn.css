@@ -2,10 +2,8 @@
 	font-family: "icons";
 	src: url('fonts/icons.eot');
 	src: url('fonts/icons.eot?#iefix') format('eot'),
-		url('fonts/icons.woff2') format('woff2'),
 		url('fonts/icons.woff') format('woff'),
-		url('fonts/icons.ttf') format('truetype'),
-		url('fonts/icons.svg#icons') format('svg');
+		url('fonts/icons.ttf') format('truetype');
 }
 
 @mixin icon-styles {
@@ -531,221 +529,215 @@
 	@if $filename == question-circle {
 		$char: "\E0A8";
 	}
-	@if $filename == question-mark-inside-a-bald-male-side-head-outline {
+	@if $filename == question {
 		$char: "\E0A9";
 	}
-	@if $filename == question {
+	@if $filename == quote-right {
 		$char: "\E0AA";
 	}
-	@if $filename == quote-right {
+	@if $filename == random {
 		$char: "\E0AB";
 	}
-	@if $filename == random {
+	@if $filename == refresh {
 		$char: "\E0AC";
 	}
-	@if $filename == refresh {
+	@if $filename == repeat {
 		$char: "\E0AD";
 	}
-	@if $filename == repeat {
+	@if $filename == rss {
 		$char: "\E0AE";
 	}
-	@if $filename == rss {
+	@if $filename == scissors {
 		$char: "\E0AF";
 	}
-	@if $filename == scissors {
+	@if $filename == search-minus {
 		$char: "\E0B0";
 	}
-	@if $filename == search-minus {
+	@if $filename == search-plus {
 		$char: "\E0B1";
 	}
-	@if $filename == search-plus {
+	@if $filename == search {
 		$char: "\E0B2";
 	}
-	@if $filename == search {
+	@if $filename == share-alt {
 		$char: "\E0B3";
 	}
-	@if $filename == share-alt {
+	@if $filename == shopping-bag {
 		$char: "\E0B4";
 	}
-	@if $filename == shopping-bag {
+	@if $filename == shopping-cart {
 		$char: "\E0B5";
 	}
-	@if $filename == shopping-cart {
+	@if $filename == sign-in {
 		$char: "\E0B6";
 	}
-	@if $filename == sign-in {
+	@if $filename == sign-out {
 		$char: "\E0B7";
 	}
-	@if $filename == sign-out {
+	@if $filename == sitemap {
 		$char: "\E0B8";
 	}
-	@if $filename == sitemap {
+	@if $filename == skype {
 		$char: "\E0B9";
 	}
-	@if $filename == skype {
+	@if $filename == sliders {
 		$char: "\E0BA";
 	}
-	@if $filename == sliders-OOOLD {
+	@if $filename == smile-o {
 		$char: "\E0BB";
 	}
-	@if $filename == sliders {
+	@if $filename == sort {
 		$char: "\E0BC";
 	}
-	@if $filename == smile-o {
+	@if $filename == space-shuttle {
 		$char: "\E0BD";
 	}
-	@if $filename == sort {
+	@if $filename == square-o {
 		$char: "\E0BE";
 	}
-	@if $filename == space-shuttle {
+	@if $filename == star-half {
 		$char: "\E0BF";
 	}
-	@if $filename == square-o {
+	@if $filename == star-o {
 		$char: "\E0C0";
 	}
-	@if $filename == star-half {
+	@if $filename == step-backward {
 		$char: "\E0C1";
 	}
-	@if $filename == star-o {
+	@if $filename == step-forward {
 		$char: "\E0C2";
 	}
-	@if $filename == step-backward {
+	@if $filename == suitcase {
 		$char: "\E0C3";
 	}
-	@if $filename == step-forward {
+	@if $filename == sun-o {
 		$char: "\E0C4";
 	}
-	@if $filename == suitcase {
+	@if $filename == tag {
 		$char: "\E0C5";
 	}
-	@if $filename == sun-o {
+	@if $filename == television {
 		$char: "\E0C6";
 	}
-	@if $filename == tag {
+	@if $filename == terminal {
 		$char: "\E0C7";
 	}
-	@if $filename == television {
+	@if $filename == th-large {
 		$char: "\E0C8";
 	}
-	@if $filename == terminal {
+	@if $filename == th {
 		$char: "\E0C9";
 	}
-	@if $filename == th-large {
+	@if $filename == thumb-down {
 		$char: "\E0CA";
 	}
-	@if $filename == th {
+	@if $filename == thumb-tack {
 		$char: "\E0CB";
 	}
-	@if $filename == thumb-down {
+	@if $filename == thumbs-o-up {
 		$char: "\E0CC";
 	}
-	@if $filename == thumb-tack {
+	@if $filename == ticket {
 		$char: "\E0CD";
 	}
-	@if $filename == thumbs-o-up {
+	@if $filename == times-circle {
 		$char: "\E0CE";
 	}
-	@if $filename == ticket {
+	@if $filename == times-square {
 		$char: "\E0CF";
 	}
-	@if $filename == times-circle {
+	@if $filename == times {
 		$char: "\E0D0";
 	}
-	@if $filename == times-square {
+	@if $filename == tint {
 		$char: "\E0D1";
 	}
-	@if $filename == times {
+	@if $filename == trash {
 		$char: "\E0D2";
 	}
-	@if $filename == tint {
+	@if $filename == tree {
 		$char: "\E0D3";
 	}
-	@if $filename == trash {
+	@if $filename == trophy {
 		$char: "\E0D4";
 	}
-	@if $filename == tree {
+	@if $filename == truck {
 		$char: "\E0D5";
 	}
-	@if $filename == trophy {
+	@if $filename == twitter {
 		$char: "\E0D6";
 	}
-	@if $filename == truck {
+	@if $filename == umbrella {
 		$char: "\E0D7";
 	}
-	@if $filename == twitter {
+	@if $filename == undo {
 		$char: "\E0D8";
 	}
-	@if $filename == umbrella {
+	@if $filename == unlock {
 		$char: "\E0D9";
 	}
-	@if $filename == undo {
+	@if $filename == usb {
 		$char: "\E0DA";
 	}
-	@if $filename == unlock {
+	@if $filename == usd {
 		$char: "\E0DB";
 	}
-	@if $filename == usb {
+	@if $filename == user-minus {
 		$char: "\E0DC";
 	}
-	@if $filename == usd {
+	@if $filename == user-plus {
 		$char: "\E0DD";
 	}
-	@if $filename == user-minus {
+	@if $filename == user-star {
 		$char: "\E0DE";
 	}
-	@if $filename == user-plus {
+	@if $filename == user {
 		$char: "\E0DF";
 	}
-	@if $filename == user-star {
+	@if $filename == users {
 		$char: "\E0E0";
 	}
-	@if $filename == user {
+	@if $filename == venus {
 		$char: "\E0E1";
 	}
-	@if $filename == users {
+	@if $filename == video-camera {
 		$char: "\E0E2";
 	}
-	@if $filename == venus {
+	@if $filename == vimeo {
 		$char: "\E0E3";
 	}
-	@if $filename == video-camera {
+	@if $filename == volume-diabled {
 		$char: "\E0E4";
 	}
-	@if $filename == vimeo {
+	@if $filename == volume-down-2 {
 		$char: "\E0E5";
 	}
-	@if $filename == volume-diabled {
+	@if $filename == volume-down {
 		$char: "\E0E6";
 	}
-	@if $filename == volume-down-2 {
+	@if $filename == volume-off {
 		$char: "\E0E7";
 	}
-	@if $filename == volume-down {
+	@if $filename == volume-up {
 		$char: "\E0E8";
 	}
-	@if $filename == volume-off {
+	@if $filename == warning {
 		$char: "\E0E9";
 	}
-	@if $filename == volume-up {
+	@if $filename == weather {
 		$char: "\E0EA";
 	}
-	@if $filename == warning {
+	@if $filename == webcam {
 		$char: "\E0EB";
 	}
-	@if $filename == weather {
+	@if $filename == wifi {
 		$char: "\E0EC";
 	}
-	@if $filename == webcam {
+	@if $filename == windows {
 		$char: "\E0ED";
 	}
-	@if $filename == wifi {
-		$char: "\E0EE";
-	}
-	@if $filename == windows {
-		$char: "\E0EF";
-	}
 	@if $filename == wrench {
-		$char: "\E0F0";
+		$char: "\E0EE";
 	}
 
 	@return $char;
@@ -1266,9 +1258,6 @@
 .icon-question-circle {
 	@include icon(question-circle);
 }
-.icon-question-mark-inside-a-bald-male-side-head-outline {
-	@include icon(question-mark-inside-a-bald-male-side-head-outline);
-}
 .icon-question {
 	@include icon(question);
 }
@@ -1319,9 +1308,6 @@
 }
 .icon-skype {
 	@include icon(skype);
-}
-.icon-sliders-OOOLD {
-	@include icon(sliders-OOOLD);
 }
 .icon-sliders {
 	@include icon(sliders);

@@ -24,17 +24,18 @@
   <main>
     <h1>handdrawn.css</h1>
 
-    <!-- Place this tag where you want the button to render. -->
-    <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css" data-icon="octicon-eye" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/watchers" data-count-api="/repos/fxaeberhard/handdrawn.css#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch fxaeberhard/handdrawn.css on GitHub">Watch</a>
+    <div id="buttons">
+      <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css" data-icon="octicon-eye" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/watchers" data-count-api="/repos/fxaeberhard/handdrawn.css#subscribers_count" data-count-aria-label="# watchers on GitHub" aria-label="Watch fxaeberhard/handdrawn.css on GitHub">Watch</a>
 
-    <!-- Place this tag where you want the button to render. -->
-    <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css" data-icon="octicon-star" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/stargazers" data-count-api="/repos/fxaeberhard/handdrawn.css#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star fxaeberhard/handdrawn.css on GitHub">Star</a>
+      <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css" data-icon="octicon-star" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/stargazers" data-count-api="/repos/fxaeberhard/handdrawn.css#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star fxaeberhard/handdrawn.css on GitHub">Star</a>
 
-    <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/network" data-count-api="/repos/fxaeberhard/handdrawn.css#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork fxaeberhard/handdrawn.css on GitHub">Fork</a>
+      <a class="github-button" href="https://github.com/fxaeberhard/handdrawn.css/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/fxaeberhard/handdrawn.css/network" data-count-api="/repos/fxaeberhard/handdrawn.css#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork fxaeberhard/handdrawn.css on GitHub">Fork</a>
+    </div>
 
     <!-- <a class="github-button" href="https://github.com/ntkme/github-buttons/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download ntkme/github-buttons on GitHub">Download</a> -->
-
-    <a href="https://github.com/fxaeberhard/handdrawn.css/issues/new">Issues</a>
+    <!--  <div>
+      <a href="https://github.com/fxaeberhard/handdrawn.css/issues/new">Issues</a>
+    </div> -->
 
     <section id="gettingstarted">
       <h2>Getting started</h2>
@@ -46,31 +47,31 @@
     <section id="samples">
       <h2>Samples</h2>
       <div>
-        <div>
-          <input placeholder="Text">
+        <div class="hd-border">
+          <input placeholder="Input">
         </div>
 
-        <div>
+        <div class="hd-border">
           <textarea placeholder="Textarea"></textarea>
         </div>
 
-        <div>
+        <div class="hd-border">
           <select>
-            <option>One</option>
-            <option>Two</option>
-            <option>Three</option>
+            <option>Select</option>
+            <option>Select Two</option>
+            <option>Select Three</option>
           </select>
         </div>
 
-        <div>
+        <div class="hd-border">
           <input type="range">
         </div>
 
-        <div>
+        <div class="hd-border">
           <input type="date">
         </div>
 
-        <div>
+        <div class="hd-border">
           <input list="datalist" placeholder="Datalist">
           <datalist id="datalist">
             <option value="Internet Explorer"></option>
@@ -81,34 +82,47 @@
           </datalist>
         </div>
 
-        <div>
-          <input type="button" value="Input button">
-          <!-- <button>Button</button> -->
+        <div class="hd-border">
+          <button>Button</button>
+        </div>
+          <!-- <input type="button" value="Button"> -->
+
+        <div class="hd-border">
+          <div class="checkbox">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Checkbox</label>
+          </div>
         </div>
 
-
-        <div>
-          <input type="checkbox" id="checkbox">
-          <label for="checkbox">Checkbox</label>
+        <div class="hd-border">
+          <div class="hd-switch">
+            <input type="checkbox" id="switch-id" name="myswitch">
+            <label for="switch-id">Switch</label>
+            <span class="hd-switch-knob"></span>
+          </div>
         </div>
 
-        <div>
-          <input type="radio" name="radio" id="radio1" checked="true">
-          <label for="radio1">Radio on</label>
-          <input type="radio" name="radio" id="radio2">
-          <label for="radio2">Radio off</label>
+        <div class="hd-border">
+          <div class="radio">
+            <input type="radio" name="radio" id="radio1" checked="true">
+            <label for="radio1">Radio on</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="radio" id="radio2">
+            <label for="radio2">Radio off</label>
+          </div>
         </div>
-        <div>
+        <div class="hd-border">
           <a href="#">Link</a>
         </div>
-        <div>
+        <div class="hd-border">
           <details>
             <summary>Summary</summary>
             <p>Details</p>
           </details>
         </div>
 
-        <div>
+        <div class="hd-border clear">
           <table>
             <thead>
               <tr>
@@ -135,22 +149,19 @@
           </table>
         </div>
 
-        <div>
+        <div class="hd-border">
           <ul>
             <li>List 1</li>
             <li>List 2</li>
           </ul>
         </div>
 
-        <div>
+        <div class="hd-border">
           <fieldset>
             <legend>Fieldset</legend>
             tesxt
           </fieldset>
         </div>
-
-        <div></div>
-        <div></div>
 
         <!-- 
         <div>
@@ -174,7 +185,7 @@
       <div class="cl"></div>
     </section>
 
-    <h2>The rest</h2>
+    <!--  <h2>The rest</h2>
 
     <br>
     <br>
@@ -204,15 +215,15 @@
 
     <br>
     <br>
-
+ -->
     <!--may do-->
-    <code>code</code>
+    <!-- <code>code</code>
     <cite>cite</cite>
     <samp>sampple code program</samp>
-    <blockquote>blockquote</blockquote>
+    <blockquote>blockquote</blockquote> -->
 
     <!-- Test -->
-    <del>del</del>
+    <!--  <del>del</del>
     <s>s</s> <strike>s</strike>
     <br>
     <em>em</em> <i>i</i>
@@ -238,7 +249,7 @@
     <input type="url">
     <input type="week">
     <br>
-    <br>
+    <br> -->
     </section>
   </main>
 
@@ -250,13 +261,14 @@
       Handdrawn.css licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
     </div>
     <div class="project">
-      <a href="https://github.com/fxaeberhard/handdrawn.css">GitHub Project</a>
+      <a href="https://github.com/fxaeberhard/handdrawn.css">GitHub</a>
       <a href="https://github.com/fxaeberhard/handdrawn.css/issues">Issues</a>
     </div>
   </footer>
 
   <!-- Scripts -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
   <script src="tmp/jquery.min.js"></script>
   <script src="site/site.js"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
