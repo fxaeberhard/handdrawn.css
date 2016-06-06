@@ -1,7 +1,7 @@
 {
     "name": "handdrawn.css",
     "description": "",
-    "main": "handdrawn.min.css",
+    "main": "handdrawn.css",
     "license": "MIT",
     "homepage": "http://fxaeberhard.github.io/handdrawn.css",
     "authors": [
